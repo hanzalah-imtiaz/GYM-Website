@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Honey fitness</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:wght@400;700&family=Titillium+Web:wght@200&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      font-family: "Mooli", sans-serif;
+      font-family: "Roboto", sans-serif;
+      font-family: "Titillium Web", sans-serif;
+      font-family: "Ubuntu", sans-serif;
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      background: url("image/boxing.jpg");
+    }
+    .left {
+      position: absolute;
+      left: 15px;
+      top: 20px;
+      display: inline-block;
+      /* border: 2px solid red; */
+    }
+    .left img {
+      width: 79px;
+      height: 66px;
+      filter: invert(100%);
+      line-height: 3px;
+    }
+    .left div {
+      text-align: center;
+      font-size: medium;
+    }
+    .mid {
+      display: block;
+      width: 475px;
+      margin: 2px auto;
+      /* border: 2px solid green; */
+    }
+    .right {
+      display: inline-block;
+      right: 15px;
+      top: 20px;
+      position: absolute;
+      /* border: 2px solid yellow; */
+    }
+    .navbar {
+      display: inline-block;
+    }
+    .navbar li {
+      padding: 10px;
+      display: inline-block;
+    }
+    .navbar li a {
+      color: white;
+      font-size: large;
+      text-decoration: none;
+    }
+    .navbar li a:hover,
+    .navbar li a:active {
+      color: gray;
+      text-decoration: underline;
+    }
+    .butn {
+      padding: 3px 8px;
+      margin: 3px 5px;
+      border-radius: 11px;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      font-size: 13px;
+      font-family: "Mooli", sans-serif;
+    }
+    .butn:hover {
+      color: gray;
+    }
+    .container {
+      border: 2px solid white;
+      border-radius: 20px;
+      padding: 33px 140px;
+      margin: 96px 127px;
+      width: 422px;
+      font-family: "Mooli", sans-serif;
+    }
+    .form-group input {
+      border: 2px solid rgb(39, 39, 47);
+      padding: 4px 11px;
+      text-align: center;
+      border-radius: 23px;
+      display: block;
+      width: 225px;
+      margin: 6px auto;
+      font-family: "Mooli", sans-serif;
+    }
+    .container button {
+      display: block;
+      width: 247px;
+      margin: auto;
+      font-family: "Mooli", sans-serif;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="image/logoo.png" alt="image not found" />
+        <div>Honey Gym</div>
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Fitness Centre</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="butn">Call US</button>
+        <button class="butn">Email Us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h2>join the best gym of gujranwala now</h2>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your name" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your age" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your height" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your phone no" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your address" />
+        </div>
+        <button class="butn">submit</button>
+      </form>
+    </div>
+  </body>
+</html>
